@@ -18,6 +18,8 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
     - List the collection(s) in the database to ensure that establishments is there.
     - Find and display one document in the establishments collection using find_one and display with pprint.
     - Assign the establishments collection to a variable to prepare the collection for use.
+    
+<img width="732" alt="Screenshot 2023-05-03 at 4 03 36 PM" src="https://user-images.githubusercontent.com/121995835/236035487-12227699-e904-4c70-bc13-d4327b115e2f.png">
 
 ### Part 2: Update the Database
 Use NoSQL_setup_starter.ipynb for this section of the challenge.
@@ -39,6 +41,8 @@ The magazine editors have some requested modifications for the database before y
       1. Use update_many to convert latitude and longitude to decimal numbers.
       2. Use update_many to convert RatingValue to integer numbers.
       
+<img width="1062" alt="Screenshot 2023-05-03 at 4 05 26 PM" src="https://user-images.githubusercontent.com/121995835/236036237-d59b592a-b23f-4d76-a921-8da3b340a1ba.png">
+
 ### Part 3: Exploratory Analysis
 Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
 
@@ -62,12 +66,17 @@ Unless otherwise stated, for each question:
    - Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
 1. Which establishments have a hygiene score equal to 20?
+*Refer to jupyter notebook*
 
 2. Which establishments in London have a RatingValue greater than or equal to 4?
+*Refer to jupyter notebook*
 
 3. What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+*Refer to jupyter notebook*
 
 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
+
+<img width="574" alt="Screenshot 2023-05-03 at 4 10 25 PM" src="https://user-images.githubusercontent.com/121995835/236037525-ae95e26b-5a9b-4d5e-a3c7-803405e593fb.png">
 
 
 
